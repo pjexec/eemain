@@ -26,7 +26,7 @@ function App() {
     // Use a slightly longer timeout to ensure the section is fully rendered
     setTimeout(() => {
       if (calendarRef.current) {
-        calendarRef.current.scrollIntoView({ 
+        calendarRef.current.scrollIntoView({
           behavior: 'smooth',
           block: 'center'
         });
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <Toaster 
+      <Toaster
         position="top-center"
         toastOptions={{
           duration: 3000,
@@ -47,7 +47,7 @@ function App() {
           }
         }}
       />
-      
+
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 px-2 py-2 sm:px-4 sm:py-4">
         <div className="max-w-7xl mx-auto">
@@ -69,7 +69,7 @@ function App() {
                   </span>
                 </div>
               </div>
-              
+
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center gap-8">
                 <nav>
@@ -122,8 +122,8 @@ function App() {
               <nav className="md:hidden mt-3 pt-3 border-t border-white/10">
                 <ul className="flex flex-col gap-2">
                   <li>
-                    <a 
-                      href="#" 
+                    <a
+                      href="#"
                       className="block px-2 py-2 text-sm text-gray-300 hover:text-white transition-colors rounded-lg hover:bg-white/5"
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -131,8 +131,8 @@ function App() {
                     </a>
                   </li>
                   <li>
-                    <a 
-                      href="#services" 
+                    <a
+                      href="#services"
                       className="block px-2 py-2 text-sm text-gray-300 hover:text-white transition-colors rounded-lg hover:bg-white/5"
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -182,7 +182,7 @@ function App() {
                 <span className="w-1 h-1 rounded-full bg-white/20"></span>
                 <span className="text-gray-300">Private Strategy Session</span>
               </div>
-              
+
               <div className="space-y-1">
                 <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold bg-gradient-to-r from-white via-blue-200 to-white bg-clip-text text-transparent leading-[1.2] pb-1">
                   Ready to Transform
@@ -196,7 +196,7 @@ function App() {
                 <span className="w-1 h-1 rounded-full bg-white/20"></span>
                 <span className="text-blue-400">Our Professional Email Audits</span>
               </div>
-              
+
               {/* CTA Section */}
               <div className="flex flex-col items-center space-y-4">
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -388,18 +388,18 @@ Now we're coming back with a vengeance and are confident this trend will continu
                       <stop offset="100%" style={{ stopColor: '#2DD4BF', stopOpacity: 0.8 }} />
                     </linearGradient>
                     <filter id="glow1">
-                      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
                       <feMerge>
-                        <feMergeNode in="coloredBlur"/>
-                        <feMergeNode in="SourceGraphic"/>
+                        <feMergeNode in="coloredBlur" />
+                        <feMergeNode in="SourceGraphic" />
                       </feMerge>
                     </filter>
                   </defs>
-                  <text 
-                    x="150" 
-                    y="30" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="30"
+                    textAnchor="middle"
+                    style={{
                       fill: '#296BED',
                       fontFamily: 'cursive',
                       fontSize: '24px',
@@ -409,11 +409,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                   >
                     ~ Trevor Larsen
                   </text>
-                  <text 
-                    x="150" 
-                    y="50" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="50"
+                    textAnchor="middle"
+                    style={{
                       fill: '#9CA3AF',
                       fontSize: '14px',
                       letterSpacing: '0.05em'
@@ -439,18 +439,18 @@ Now we're coming back with a vengeance and are confident this trend will continu
                       <stop offset="100%" style={{ stopColor: '#2DD4BF', stopOpacity: 0.8 }} />
                     </linearGradient>
                     <filter id="glow2">
-                      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
                       <feMerge>
-                        <feMergeNode in="coloredBlur"/>
-                        <feMergeNode in="SourceGraphic"/>
+                        <feMergeNode in="coloredBlur" />
+                        <feMergeNode in="SourceGraphic" />
                       </feMerge>
                     </filter>
                   </defs>
-                  <text 
-                    x="150" 
-                    y="30" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="30"
+                    textAnchor="middle"
+                    style={{
                       fill: '#296BED',
                       fontFamily: 'cursive',
                       fontSize: '24px',
@@ -460,11 +460,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                   >
                     ~ Andy Bouchie
                   </text>
-                  <text 
-                    x="150" 
-                    y="50" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="50"
+                    textAnchor="middle"
+                    style={{
                       fill: '#9CA3AF',
                       fontSize: '14px',
                       letterSpacing: '0.05em'
@@ -490,18 +490,18 @@ Now we're coming back with a vengeance and are confident this trend will continu
                       <stop offset="100%" style={{ stopColor: '#2DD4BF', stopOpacity: 0.8 }} />
                     </linearGradient>
                     <filter id="glow">
-                      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
                       <feMerge>
-                        <feMergeNode in="coloredBlur"/>
-                        <feMergeNode in="SourceGraphic"/>
+                        <feMergeNode in="coloredBlur" />
+                        <feMergeNode in="SourceGraphic" />
                       </feMerge>
                     </filter>
                   </defs>
-                  <text 
-                    x="150" 
-                    y="30" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="30"
+                    textAnchor="middle"
+                    style={{
                       fill: '#296BED',
                       fontFamily: 'cursive',
                       fontSize: '24px',
@@ -511,11 +511,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                   >
                     ~ Keala Kanae
                   </text>
-                  <text 
-                    x="150" 
-                    y="55" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="55"
+                    textAnchor="middle"
+                    style={{
                       fill: '#9CA3AF',
                       fontSize: '12px',
                       letterSpacing: '0.05em'
@@ -523,11 +523,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                   >
                     Founder and CEO | Fullstaq Marketer
                   </text>
-                  <text 
-                    x="150" 
-                    y="75" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="75"
+                    textAnchor="middle"
+                    style={{
                       fill: '#9CA3AF',
                       fontSize: '12px',
                       letterSpacing: '0.05em'
@@ -535,11 +535,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                   >
                     Previous Cofounder and CEO | AWOL
                   </text>
-                  <text 
-                    x="150" 
-                    y="95" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="95"
+                    textAnchor="middle"
+                    style={{
                       fill: '#9CA3AF',
                       fontSize: '11px',
                       letterSpacing: '0.05em',
@@ -566,18 +566,18 @@ Now we're coming back with a vengeance and are confident this trend will continu
                       <stop offset="100%" style={{ stopColor: '#2DD4BF', stopOpacity: 0.8 }} />
                     </linearGradient>
                     <filter id="glow4">
-                      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
                       <feMerge>
-                        <feMergeNode in="coloredBlur"/>
-                        <feMergeNode in="SourceGraphic"/>
+                        <feMergeNode in="coloredBlur" />
+                        <feMergeNode in="SourceGraphic" />
                       </feMerge>
                     </filter>
                   </defs>
-                  <text 
-                    x="150" 
-                    y="30" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="30"
+                    textAnchor="middle"
+                    style={{
                       fill: '#296BED',
                       fontFamily: 'cursive',
                       fontSize: '24px',
@@ -587,11 +587,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                   >
                     ~ Aidan Booth
                   </text>
-                  <text 
-                    x="150" 
-                    y="50" 
-                    textAnchor="middle" 
-                    style={{ 
+                  <text
+                    x="150"
+                    y="50"
+                    textAnchor="middle"
+                    style={{
                       fill: '#9CA3AF',
                       fontSize: '14px',
                       letterSpacing: '0.05em'
@@ -615,7 +615,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
             </h2>
             <p className="text-gray-400 text-lg">Comprehensive email marketing solutions designed to drive business growth</p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <FeatureCard
               title="Strategy Development"
@@ -671,9 +671,9 @@ Now we're coming back with a vengeance and are confident this trend will continu
               Everything you need to know about our email audit and optimization services
             </p>
           </div>
-          
+
           <div className="space-y-6">
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq1')}
             >
@@ -694,7 +694,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
               )}
             </div>
 
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq2')}
             >
@@ -715,7 +715,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
               )}
             </div>
 
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq3')}
             >
@@ -736,7 +736,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
               )}
             </div>
 
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq4')}
             >
@@ -757,7 +757,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
               )}
             </div>
 
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq5')}
             >
@@ -778,7 +778,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
               )}
             </div>
 
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq6')}
             >
@@ -799,7 +799,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
               )}
             </div>
 
-            <div 
+            <div
               className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl hover:border-white/20 transition-all duration-300"
               onClick={() => handleFaqClick('faq7')}
             >
@@ -831,7 +831,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
             <span className="w-1 h-1 rounded-full bg-white/20"></span>
             <span className="text-gray-300">Private Strategy Session</span>
           </div>
-          
+
           <h2 className="text-4xl font-bold mb-8">Ready to Transform Your Email Marketing?</h2>
           <p className="text-gray-400 mb-12">
             Schedule a free consultation to discuss how we can help you achieve your email marketing goals.
@@ -851,7 +851,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
 
       {/* Calendar Section */}
       {showCalendarSection && (
-        <div 
+        <div
           ref={calendarRef}
           className="border-t border-white/10 bg-gradient-to-b from-black to-blue-950/50 overflow-x-hidden"
         >
@@ -864,7 +864,7 @@ Now we're coming back with a vengeance and are confident this trend will continu
                 Choose a time that works best for you. We'll discuss your email marketing goals and create a customized plan to help you achieve them.
               </p>
             </div>
-            
+
             <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl sm:rounded-2xl overflow-hidden shadow-xl">
               <iframe
                 src="https://clinquant-wisp-caed10.netlify.app/"
@@ -893,19 +893,11 @@ Now we're coming back with a vengeance and are confident this trend will continu
                 Expert.Email<sup className="text-[0.6em]">™</sup>
               </span>
             </div>
-            <a 
-              href="https://email-consultant-97.aura.build/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              by: Operational Advantages
-            </a>
             <div className="text-sm text-gray-400">
               Copyright © 2025 All Rights Reserved
             </div>
-            <Link 
-              to="/terms" 
+            <Link
+              to="/terms"
               className="text-sm text-gray-400 hover:text-white transition-colors"
             >
               Terms of Service
