@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Mail, ArrowRight, Menu, X, Plus, Minus } from 'lucide-react';
+import { ArrowRight, Menu, X, Plus, Minus } from 'lucide-react';
 import { Toaster, toast } from 'react-hot-toast';
 import { TestimonialCard } from './components/TestimonialCard';
 import { FeatureCard } from './components/FeatureCard';
@@ -55,9 +55,9 @@ function App() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="relative group">
-                  <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
-                  <div className="relative bg-black rounded-lg p-3 sm:p-2.5 ring-1 ring-white/10 group-hover:ring-white/20 transition duration-200">
-                    <Mail className="w-7 h-7 sm:w-7 sm:h-7 text-[#2B6CEE] group-hover:text-[#2B6CEE]/80 transition-colors" />
+                  <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-teal-600 rounded-xl blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
+                  <div className="relative rounded-xl overflow-hidden ring-1 ring-white/10 group-hover:ring-white/20 transition duration-200">
+                    <img src="/shield-logo.png" alt="Expert.Email Shield Logo" className="w-10 h-10 sm:w-11 sm:h-11 object-contain" />
                   </div>
                 </div>
                 <div>
@@ -884,9 +884,9 @@ Now we're coming back with a vengeance and are confident this trend will continu
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-3">
               <div className="relative group">
-                <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
-                <div className="relative bg-black rounded-lg p-2.5 ring-1 ring-white/10 group-hover:ring-white/20 transition duration-200">
-                  <Mail className="w-6 h-6 text-[#2B6CEE] group-hover:text-[#2B6CEE]/80 transition-colors" />
+                <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-teal-600 rounded-xl blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
+                <div className="relative rounded-xl overflow-hidden ring-1 ring-white/10 group-hover:ring-white/20 transition duration-200">
+                  <img src="/shield-logo.png" alt="Expert.Email Shield Logo" className="w-9 h-9 object-contain" />
                 </div>
               </div>
               <span className="text-lg font-bold text-white">
